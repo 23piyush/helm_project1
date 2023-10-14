@@ -1,7 +1,7 @@
 # Move to correct repo
 cd practice1
 
-# Install helm
+# Install helm using script
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
 chmod 700 get_helm.sh
 ./get_helm.sh
@@ -35,6 +35,7 @@ kubectl get all
 
 helm delete myfirstspringboot
 helm list -a
+
 
 
 # Helm chart repositories
